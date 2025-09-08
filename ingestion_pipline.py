@@ -28,9 +28,6 @@ def load_documents(docs_path):
         print(f" Content preview: {doc.page_content[:500]} ...")
         print(f" MetaData: {doc.metadata}")
 
-
-
-
 def main():
     load_documents('docs')
     return None
